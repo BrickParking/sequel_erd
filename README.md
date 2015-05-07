@@ -1,6 +1,6 @@
 # SequelErd
 
-TODO: Write a gem description
+Creates ERD (Entity-Relationship-Models) from Sequel Models.
 
 ## Installation
 
@@ -18,9 +18,6 @@ Or install it yourself as:
 
     $ gem install sequel_erd
 
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
