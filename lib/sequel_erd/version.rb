@@ -1,3 +1,5 @@
-module SequelErd
-  VERSION = "0.0.1"
+module Sequel
+  module Erd
+    VERSION = '0.0.1'
+  end
 end

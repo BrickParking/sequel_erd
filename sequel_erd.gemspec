@@ -5,7 +5,7 @@ require 'sequel_erd/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "sequel_erd"
-  spec.version       = SequelErd::VERSION
+  spec.version       = Sequel::Erd::VERSION
   spec.authors       = ["Michael C. Beck"]
   spec.email         = ["michael.beck@qualeapps.com"]
   spec.summary       = %q{Sequel ERD}
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency 'ruby-graphviz', '~> 1.2.1'
+  spec.add_dependency 'ruby-graphviz', '~> 1.2.2'
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
 end
