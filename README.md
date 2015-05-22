@@ -20,7 +20,8 @@ Or install it yourself as:
 
 ## Usage
 
-Run ```ruby
+Run 
+```ruby
 Sequel::Erd.create
 ```
 after loading your Application Code and Models (e.g. from the CLI). This will create a sequel_erd.png in your Applications root path.
