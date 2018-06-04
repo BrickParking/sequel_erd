@@ -9,7 +9,7 @@ module Sequel
       graph.node["shape"] = "plaintext"
       graph.edge[:fontname] = graph.node[:fontname] = 'Arial, Helvetica, SansSerif'
 
-      models = Sequel::Model.descendants - Sequel::Model::ANONYMOUS_MODEL_CLASSES.values
+      models = Sequel::Model.descendants
       file_path = File.expand_path("sequel_erd/template/sequel.erb", File.dirname(__FILE__))
       erb_template = File.read( file_path )
       template = ERB.new( erb_template, 0, '-' )
